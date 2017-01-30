@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/tan_background"
+    tools:context="com.example.admin.miwork.MainActivity">
+    <TextView
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="9dp"
+        android:paddingBottom="30dp"
+        android:background="#FF9800"
+        android:textStyle="bold"
+        android:id="@+id/numbers"
+        android:text="Numbers"/>
+
+    <TextView
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="9dp"
+        android:paddingBottom="30dp"
+        android:background="#33691E"
+        android:id="@+id/family"
+        android:text="Family_Members"/>
+
+    <TextView
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="9dp"
+        android:paddingBottom="30dp"
+        android:background="#6200EA"
+        android:id="@+id/colors"
+        android:text="Colors"/>
+
+    <TextView
+        android:paddingTop="30dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="9dp"
+        android:paddingBottom="30dp"
+        android:background="#42A5F5"
+        android:id="@+id/phrases"
+        android:textStyle="bold"
+        android:text="Phrases"/>
+</LinearLayout>
